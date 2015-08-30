@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package demo;
+
+message Dog {
+    bool barks = 1;
+    int32 yearsold = 2;
+
+    message Parent {
+        string name = 1;
+        string email = 2;
+    }
+
+    repeated Parent parents = 4;
+}

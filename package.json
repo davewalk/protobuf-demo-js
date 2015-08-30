@@ -1,0 +1,23 @@
+{
+  "name": "protobuf-demo-js",
+  "version": "0.0.0",
+  "description": "A protocol buffers demo in JavaScript",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davewalk/protobuf-demo-js"
+  },
+  "author": "Dave Walk <daviddwalk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davewalk/protobuf-demo-js/issues"
+  },
+  "homepage": "https://github.com/davewalk/protobuf-demo-js",
+  "dependencies": {
+    "protobufjs": "^4.0.0"
+  }
+}
